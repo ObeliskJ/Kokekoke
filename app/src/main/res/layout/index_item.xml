@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8F8F8" >
+
+        <ImageView
+            android:id="@+id/id_iv_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="16dp"
+             />
+
+        <TextView
+            android:id="@+id/id_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/id_iv_icon"
+            android:text="HelloWorld"
+            android:textColor="#9d9d9d"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:id="@+id/id_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="16:02"
+            android:visibility="gone"
+            android:textColor="#919191"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/id_tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textColor="#5b5b5b"
+            android:maxLines="5"
+            android:ellipsize="end"
+            android:text="当然了，为了阴影更加逼真，把上述的Layer-list又包含到了一个item中，并为该item设置了top和right，为了让左，下的阴影效果比上、右重，当然你可以设置其他两边，改变效果。"
+            android:textSize="@dimen/text_size_medium" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" >
+
+            <ImageView
+                android:id="@+id/id_iv_like"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                />
+
+            <TextView
+                android:id="@+id/id_tv_like_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/id_iv_like"
+                android:textColor="#9d9d9d"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/id_tv_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:text="#哈哈哈哈"
+                android:textSize="@dimen/text_size_label"
+                android:textColor="#9d9d9d"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

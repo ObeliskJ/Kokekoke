@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_default"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+        <TextView
+            android:id="@+id/id_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="账号登录"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="2dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/id_tv_title"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="2dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/id_tv_title"
+            android:background="@color/white" />
+    </RelativeLayout>
+
+    <com.obelisk.koukekouke.view.DeletableEditText
+        android:id="@+id/id_tv_account"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/edittext_normal"
+        android:hint="输入账号喵~"
+        android:paddingLeft="10dp"
+        android:textSize="14dp"
+        android:textColor="@color/black_999"
+        android:textColorHint="@color/black_999" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp">
+
+        <com.obelisk.koukekouke.view.DeletableEditText
+            android:id="@+id/id_tv_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_normal"
+            android:hint="输入密码喵~"
+            android:inputType="textPassword"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black_999"
+            android:textColorHint="@color/black_999" />
+
+        <LinearLayout
+            android:id="@+id/id_ll_login"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@drawable/btn_login"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_arrow_login" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/id_tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:text="选择动漫人物并注册"
+        android:textColor="#fefefe"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/id_tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="快捷登录"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="2dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/id_tv_login"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="2dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/id_tv_login"
+            android:background="@color/white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/id_iv_qq"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:background="@drawable/iv_qq"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/id_iv_weibo"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/iv_weibo"
+            android:scaleType="fitXY" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

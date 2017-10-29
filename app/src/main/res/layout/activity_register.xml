@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_default">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp">
+
+            <TextView
+                android:id="@+id/id_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="账号注册"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="2dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/id_tv_title"
+                android:background="@color/white" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="2dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/id_tv_title"
+                android:background="@color/white" />
+        </RelativeLayout>
+
+        <com.obelisk.koukekouke.view.DeletableEditText
+            android:id="@+id/id_tv_account"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/edittext_normal"
+            android:drawableRight="@drawable/user_delete"
+            android:hint="输入账号喵~"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14dp"
+            android:textColor="@color/black_999"
+            android:textColorHint="@color/black_999" />
+
+        <com.obelisk.koukekouke.view.DeletableEditText
+            android:id="@+id/id_tv_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edittext_normal"
+            android:drawableRight="@drawable/user_delete"
+            android:hint="输入密码喵~"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14dp"
+            android:textColor="@color/black_999"
+            android:textColorHint="@color/black_999" />
+
+        <com.obelisk.koukekouke.view.DeletableEditText
+            android:id="@+id/id_tv_mail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edittext_normal"
+            android:drawableRight="@drawable/user_delete"
+            android:hint="关联邮箱喵~"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14dp"
+            android:textColor="@color/black_999"
+            android:textColorHint="@color/black_999" />
+
+        <Button
+            android:id="@+id/id_btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/id_tv_mail"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/btn_register"
+            android:text="注册并登录"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/id_tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:singleLine="true"
+        android:text="提示:邮箱仅作为找回密码的凭证"
+        android:textSize="12dp"
+        android:textColor="#ffffff" />
+</RelativeLayout>

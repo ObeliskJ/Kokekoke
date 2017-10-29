@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".com.obelisk.koukekouke.activity.MainActivity">
+    <item android:id="@+id/action_msg_center"
+        android:title="通知"
+        android:icon="@drawable/ic_notifications"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_setting"
+        android:title="设置"
+        android:icon="@drawable/ic_more_vert"
+        android:orderInCategory="100"
+        app:showAsAction="always" >
+
+        <menu>
+            <group  >
+                <item
+                    android:id="@+id/menu_invite_friend"
+                    android:title="@string/menu_str_invite_friend" />
+                <item
+                    android:id="@+id/menu_about_us"
+                    android:title="@string/menu_str_about_us" />
+                <item
+                    android:id="@+id/menu_logout"
+                    android:title="@string/menu_str_logout" />
+            </group>
+        </menu>
+        </item>
+</menu>

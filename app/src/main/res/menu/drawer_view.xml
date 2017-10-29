@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navi_index"
+            android:icon="@drawable/ic_loyalty"
+            android:title="@string/navi_str_index" />
+        <item
+            android:id="@+id/navi_topic"
+            android:icon="@drawable/ic_loyalty"
+            android:title="@string/navi_str_my_topic" />
+        <item
+            android:id="@+id/nav_label"
+            android:icon="@drawable/ic_loyalty"
+            android:title="@string/navi_str_label" />
+        <item
+            android:id="@+id/nav_charge"
+            android:icon="@drawable/ic_loyalty"
+            android:title="@string/navi_str_charge" />
+    </group>
+    <item android:title=" ">
+        <menu>
+            <item
+                android:id="@+id/navi_setting"
+                android:title="@string/navi_str_setting" />
+            <item
+                android:id="@+id/navi_logout"
+                android:title="@string/navi_str_logout" />
+        </menu>
+
+    </item>
+
+
+</menu>

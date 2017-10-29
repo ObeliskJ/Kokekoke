@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/id_fl_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/id_iv_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/id_tv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:lines="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_16" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/id_fl_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/id_iv_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/id_tv_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:lines="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_16" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/id_fl_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/id_iv_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/id_tv_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:lines="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_16" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/id_fl_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/id_iv_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/id_tv_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:lines="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_16" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <com.obelisk.koukekouke.view.FlowLayout.TagFlowLayout
+        android:id="@+id/id_flowlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tool:max_select="1"></com.obelisk.koukekouke.view.FlowLayout.TagFlowLayout>
+
+
+</LinearLayout>

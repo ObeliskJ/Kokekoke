@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享或保存到..."
+        android:textSize="18sp"
+        android:textColor="#f77878"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <LinearLayout
+            android:id="@+id/id_ll_friend"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="25dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ic_share_friend"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="朋友圈"
+                android:textColor="#666666"
+                android:textSize="12sp"
+                android:layout_marginTop="8dp"
+                />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ll_wechat"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ic_share_wechat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="微信好友"
+                android:textColor="#666666"
+                android:textSize="12sp"
+                android:layout_marginTop="8dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ll_weibo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="25dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ic_share_weibo"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="微博"
+                android:textColor="#666666"
+                android:textSize="12sp"
+                android:layout_marginTop="8dp"
+                />
+
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        >
+        <LinearLayout
+            android:id="@+id/id_ll_qzone"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="25dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ic_share_qzone"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QQ空间"
+                android:textColor="#666666"
+                android:textSize="12sp"
+                android:layout_marginTop="8dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ll_qq"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ic_share_qq"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QQ好友"
+                android:textColor="#666666"
+                android:textSize="12sp"
+                android:layout_marginTop="8dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ll_save"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="25dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ic_share_save"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="保存图片"
+                android:textColor="#666666"
+                android:textSize="12sp"
+                android:layout_marginTop="8dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

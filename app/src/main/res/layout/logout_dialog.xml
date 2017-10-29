@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/id_tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:text="真的要退出么（・ω・）"
+        android:textColor="#5b5b5b"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/id_tv_msg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="16dp"
+        android:text="登出后就收不到其它Master的消息了喲~要不要去变身换个马甲回来再战500年,你帅(美)你说了算！
+"
+        android:textColor="#9d9d9d"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/id_tv_logout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:padding="8dp"
+            android:text="立即退出"
+            android:textColor="#9d9d9d"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/id_tv_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="去变身"
+            android:textColor="#f77878"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

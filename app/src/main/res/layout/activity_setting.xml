@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="7"
+                android:text="开启消息通知"
+                android:textColor="#666666"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/id_iv_msg"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_switch_on" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开启通知就不会错过喜欢的内容了"
+            android:textColor="#9c9c9c"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="7"
+                android:text="检测版本更新"
+                android:textColor="#666666"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:text="V2.0"
+                android:textColor="@color/black_666"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂无新版本"
+            android:textColor="#9c9c9c"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_ll_advice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="反馈"
+            android:textColor="#666666"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我们重视你的意见和建议"
+            android:textColor="#9c9c9c"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/id_ll_joinus"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="加入我们"
+            android:textColor="#666666"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="让我们一起做一些好玩的事吧"
+            android:textColor="#9c9c9c"
+            android:textSize="11dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_ll_aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="关于"
+            android:textColor="#666666"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_about_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="口可口可是一款基于二次元的匿名动漫社区，放下三次元的身份，加入口可口可社区，这里有你想要的所有二次元的一切。你也可以访问口可口可官网www.kokekoke.cn 或者关注口可口可团队微博了解更多"
+            android:textColor="#9c9c9c"
+            android:textSize="11dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

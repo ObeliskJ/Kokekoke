@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/id_iv_pic_character"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:layout_weight="5"
+        android:background="@null" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="确认选择后即可使用该角色发话题"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            android:textColor="@color/splash_footer"/>
+
+        <Button
+            android:id="@+id/id_btn_reselect"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:text="重新选择"
+            android:textSize="16sp"
+            android:background="@drawable/edittext_character_reselection"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/id_btn_confirm"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_character_confirm"
+            android:padding="5dp"
+            android:text="确认选择"
+            android:textSize="16sp"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</LinearLayout>
